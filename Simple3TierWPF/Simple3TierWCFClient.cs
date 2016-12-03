@@ -18,7 +18,7 @@ namespace Simple3TierWPF
 
             endpoint.Binding = new BasicHttpBinding();
 
-            endpoint.Address = new EndpointAddress(@"http://40.122.169.215/Simple3TierWCF/Service.svc");
+            endpoint.Address = new EndpointAddress(@"http://keithvoelsclickonce.centralus.cloudapp.azure.com/Simple3TierWCF/Service.svc");
 
             return new Simple3TierWCFClient(endpoint);
         }
